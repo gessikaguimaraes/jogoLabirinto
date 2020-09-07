@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Fonts/Lobster-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Fonts/PTSerif-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://assets/images/pedra.png" type="Texture" id=3]
 [ext_resource path="res://Spript/Niveis.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/Topo/TopoNivel.tscn" type="PackedScene" id=5]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.901961, 0.160784, 0.388235, 0.6 )
@@ -35,6 +36,8 @@ script = ExtResource( 4 )
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Topo" parent="." instance=ExtResource( 5 )]
 
 [node name="Panel" type="Panel" parent="."]
 margin_left = 35.8515

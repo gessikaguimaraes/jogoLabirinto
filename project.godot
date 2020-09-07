@@ -28,6 +28,7 @@ config/icon="res://icon.png"
 
 Game="*res://Spript/game.gd"
 global="*res://global.gd"
+MusicController="*res://autoloads/MusicController.tscn"
 
 [display]
 
