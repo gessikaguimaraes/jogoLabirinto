@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Fonts/PTSerif-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/icones/baseline_reply_white_18dp.png" type="Texture" id=2]
 [ext_resource path="res://assets/icones/baseline_settings_white_18dp.png" type="Texture" id=3]
 [ext_resource path="res://Spript/Topo.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/Configuracao.tscn" type="PackedScene" id=5]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 1, 0.976471, 0.976471, 0.6 )
@@ -113,4 +114,7 @@ expand_icon = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="PopupConfiguracao" parent="." instance=ExtResource( 5 )]
+[connection signal="pressed" from="Configuracao" to="." method="_on_Configuracao_pressed"]
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

@@ -21,6 +21,7 @@ shadow_size = 5
 
 [node name="Popup" type="Popup"]
 pause_mode = 2
+visible = true
 margin_left = 56.0
 margin_top = 295.0
 margin_right = 654.0

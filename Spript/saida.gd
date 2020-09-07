@@ -35,12 +35,10 @@ func _on_Area2D_body_entered(body):
 	if body.is_in_group("personagem9"):
 		$Popup/Label.text = "Nível 9 \n Completado!" #Muda o label
 		global.level = 10
-	
-	print(global.unlockedLevels)
-	print(global.level)
+
 	if global.unlockedLevels == 1:
 		global.unlockedLevels = 2
-	elif global.unlockedLevels != global.level:
+	elif global.unlockedLevels < global.level:
 		global.unlockedLevels += 1
 	Game.saveData({"level": global.unlockedLevels})
 

@@ -16,6 +16,8 @@ texture = ExtResource( 1 )
 centered = false
 
 [node name="Popup" parent="." instance=ExtResource( 3 )]
+margin_left = 54.0
+margin_right = 652.0
 
 [node name="Area2D" type="Area2D" parent="."]
 

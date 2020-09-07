@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Fase 1"
-run/main_scene="res://Scenes/Niveis.tscn"
+run/main_scene="res://Scenes/Main.tscn"
 config/icon="res://icon.png"
 
 [autoload]
