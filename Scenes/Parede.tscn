@@ -1,0 +1,138 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://assets/images/Gelo.png" type="Texture" id=1]
+[ext_resource path="res://assets/images/tijolo.png" type="Texture" id=2]
+[ext_resource path="res://assets/images/agua.png" type="Texture" id=3]
+[ext_resource path="res://assets/images/grama.png" type="Texture" id=4]
+[ext_resource path="res://assets/images/colorido.png" type="Texture" id=5]
+[ext_resource path="res://assets/images/pedra.png" type="Texture" id=6]
+[ext_resource path="res://assets/images/zebra.png" type="Texture" id=7]
+[ext_resource path="res://assets/images/rosa.png" type="Texture" id=8]
+[ext_resource path="res://assets/images/laranja.png" type="Texture" id=9]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16, 16 )
+
+[node name="Paredes" type="Node2D"]
+
+[node name="gelo" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
+
+[node name="StaticBody2D" type="StaticBody2D" parent="gelo"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gelo/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="tijolo" type="Sprite" parent="."]
+position = Vector2( 63.9265, 0 )
+texture = ExtResource( 2 )
+centered = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="tijolo"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tijolo/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="grama" type="Sprite" parent="."]
+position = Vector2( 127.844, 0.44545 )
+texture = ExtResource( 4 )
+centered = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grama"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grama/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="pedra" type="Sprite" parent="."]
+position = Vector2( 127.844, 0.44545 )
+texture = ExtResource( 6 )
+centered = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="pedra"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pedra/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="agua" type="Sprite" parent="."]
+position = Vector2( 191.543, -0.1091 )
+texture = ExtResource( 3 )
+centered = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="agua"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="agua/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="colorido" type="Sprite" parent="."]
+position = Vector2( 256.242, 0.336349 )
+texture = ExtResource( 5 )
+centered = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="colorido"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="colorido/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="zebra" type="Sprite" parent="."]
+position = Vector2( 320.278, 0.227249 )
+texture = ExtResource( 7 )
+centered = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="zebra"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="zebra/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="rosa" type="Sprite" parent="."]
+position = Vector2( 384.423, 0.227249 )
+texture = ExtResource( 8 )
+centered = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="rosa"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rosa/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="laranja" type="Sprite" parent="."]
+position = Vector2( 427.369, -0.24469 )
+texture = ExtResource( 9 )
+centered = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="laranja"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="laranja/StaticBody2D"]
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )

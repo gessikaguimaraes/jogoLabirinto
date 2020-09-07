@@ -1,0 +1,116 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Fonts/PTSerif-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://assets/icones/baseline_reply_white_18dp.png" type="Texture" id=2]
+[ext_resource path="res://assets/icones/baseline_settings_white_18dp.png" type="Texture" id=3]
+[ext_resource path="res://Spript/Topo.gd" type="Script" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 1, 0.976471, 0.976471, 0.6 )
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+shadow_color = Color( 0.984314, 0.976471, 0.976471, 0.6 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.32549, 0.882353, 0.972549, 0.6 )
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+shadow_color = Color( 0.32549, 0.882353, 0.972549, 0.6 )
+shadow_size = 5
+shadow_offset = Vector2( 1, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 60
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.184314, 0.8, 0.964706, 0.6 )
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.137255, 0.435294, 0.945098, 0.6 )
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.32549, 0.882353, 0.972549, 0.6 )
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
+shadow_color = Color( 0.32549, 0.882353, 0.972549, 0.6 )
+shadow_size = 10
+
+[node name="Topo" type="Panel"]
+pause_mode = 2
+margin_left = 1.0
+margin_right = 721.0
+margin_bottom = 99.0
+custom_styles/panel = SubResource( 1 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 300.0
+margin_top = 1.0
+margin_right = 436.0
+margin_bottom = 104.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nivel" type="Label" parent="Panel"]
+margin_left = 44.0
+margin_top = 10.0
+margin_right = 84.0
+margin_bottom = 91.0
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color_shadow = Color( 0.121569, 0.435294, 0.835294, 1 )
+custom_constants/shadow_offset_x = 3
+custom_constants/shadow_offset_y = 3
+text = "1"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Configuracao" type="Button" parent="."]
+margin_left = 588.703
+margin_top = 7.13225
+margin_right = 670.703
+margin_bottom = 86.1322
+rect_pivot_offset = Vector2( 23.4886, 32.7223 )
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+action_mode = 0
+icon = ExtResource( 3 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="voltar" type="Button" parent="."]
+margin_left = 42.7532
+margin_top = 7.79967
+margin_right = 124.753
+margin_bottom = 86.7997
+rect_pivot_offset = Vector2( 23.4886, 32.7223 )
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+action_mode = 0
+icon = ExtResource( 2 )
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]
