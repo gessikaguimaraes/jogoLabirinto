@@ -1,5 +1,13 @@
 extends Panel
 
+export var numeroFase = 1
+export(Color, RGB) var cor
+
+func _ready():
+#	get_node("Panel/nivel").text = str(numeroFase)
+#	get_node("Panel"). = cor
+	pass
+
 func _on_voltar_pressed():
 	get_tree().paused = false
 	if  is_in_group("TelaNivel"):

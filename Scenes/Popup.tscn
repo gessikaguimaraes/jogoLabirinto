@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Fonts/Lobster-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/icones/baseline_reply_white_18dp.png" type="Texture" id=2]
 [ext_resource path="res://assets/icones/baseline_replay_white_18dp.png" type="Texture" id=3]
 [ext_resource path="res://assets/icones/baseline_double_arrow_white_18dp.png" type="Texture" id=4]
 [ext_resource path="res://Spript/LevelComplete.gd" type="Script" id=5]
+[ext_resource path="res://assets/images/teste.png" type="Texture" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 50
@@ -21,6 +22,7 @@ shadow_size = 5
 
 [node name="Popup" type="Popup"]
 pause_mode = 2
+visible = true
 margin_left = 56.0
 margin_top = 295.0
 margin_right = 654.0
@@ -29,6 +31,14 @@ script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Background" type="Sprite" parent="."]
+modulate = Color( 0.439216, 0.439216, 0.439216, 0.6 )
+self_modulate = Color( 0.439216, 0.439216, 0.439216, 0.6 )
+position = Vector2( -51.6332, -298.575 )
+scale = Vector2( 1, 1.01052 )
+texture = ExtResource( 6 )
+centered = false
 
 [node name="Label" type="Label" parent="."]
 margin_right = 578.0

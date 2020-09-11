@@ -48,7 +48,6 @@ shadow_color = Color( 0.32549, 0.882353, 0.972549, 0.6 )
 shadow_size = 10
 
 [node name="Topo" type="Panel"]
-pause_mode = 2
 margin_left = 1.0
 margin_right = 721.0
 margin_bottom = 99.0

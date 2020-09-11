@@ -1,4 +1,28 @@
 extends KinematicBody2D
+
+var movimento = Vector2()
+var velocidade = 300
+
+func _physics_process(delta):
+	if global.control:
+		if Input.is_action_pressed("ui_right"):
+			movimento.x = velocidade
+		elif Input.is_action_pressed("ui_left"):
+			movimento.x = - velocidade
+		else:
+			movimento.x = 0
+		if Input.is_action_pressed("ui_up"):
+			movimento.y = - velocidade
+		elif Input.is_action_pressed("ui_down"):
+			movimento.y = velocidade
+		else:
+			movimento.y = 0
+		move_and_slide(movimento)
+	else:
+		var motionx=(get_global_mouse_position().x-position.x)*0.5
+		var motiony=(get_global_mouse_position().y-position.y)*0.5
+		move_and_slide(Vector2(motionx,motiony))
+	
 #Géssika - Touch funciona arrastando ele
 #var movimento = Vector2()
 #var velocidade = 300
@@ -20,20 +44,20 @@ extends KinematicBody2D
 #	move_and_slide(movimento)
 
 # Géssika - Touch funciona - mover para onde eu clicar
-export (int) var speed = 200
-
-var target = Vector2()
-var velocity = Vector2()
-
-func _input(event):
-	if event is InputEventScreenTouch:
-		target = get_global_mouse_position()
-
-func _physics_process(delta):
-	velocity = position.direction_to(target) * speed
-	# look_at(target)
-	if position.distance_to(target) > 5:
-		velocity = move_and_slide(velocity)
+#export (int) var speed = 200
+#
+#var target = Vector2()
+#var velocity = Vector2()
+#
+#func _input(event):
+#	if event is InputEventScreenTouch:
+#		target = get_global_mouse_position()
+#
+#func _physics_process(delta):
+#	velocity = position.direction_to(target) * speed
+#	# look_at(target)
+#	if position.distance_to(target) > 5:
+#		velocity = move_and_slide(velocity)
 
 #Géssika - Dar certo com botoes
 #var movimento = Vector2()
@@ -82,3 +106,7 @@ func _physics_process(delta):
 #            self.state = FLY
 #            self.character_on_input_press_position = self.position
 #            self.get_tree().set_input_as_handled()
+
+
+func _on_personagem1_draw():
+	pass # Replace with function body.

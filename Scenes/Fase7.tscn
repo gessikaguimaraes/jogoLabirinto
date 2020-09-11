@@ -20,4 +20,4 @@ position = Vector2( 66.7758, 291.042 )
 position = Vector2( 363.267, 978.803 )
 
 [node name="ControleMobile" parent="." instance=ExtResource( 4 )]
-position = Vector2( 62.8579, 1068.58 )
+position = Vector2( 360.407, 907.691 )

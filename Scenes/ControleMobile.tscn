@@ -1,32 +1,37 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://assets/images/setaEsquerda.png" type="Texture" id=1]
-[ext_resource path="res://assets/images/setaDireita.png" type="Texture" id=2]
-[ext_resource path="res://assets/images/setaBaixo.png" type="Texture" id=3]
-[ext_resource path="res://assets/images/setaCima.png" type="Texture" id=4]
+[ext_resource path="res://assets/images/buttonPressed.png" type="Texture" id=1]
+[ext_resource path="res://assets/images/button.png" type="Texture" id=5]
 
 [node name="ControleMobile" type="Node2D"]
 
 [node name="left" type="TouchScreenButton" parent="."]
-position = Vector2( 210.905, 86.7646 )
-scale = Vector2( 0.398948, 0.345966 )
-normal = ExtResource( 1 )
+position = Vector2( -149.49, -61.2906 )
+scale = Vector2( 2, 2 )
+normal = ExtResource( 5 )
+pressed = ExtResource( 1 )
 action = "ui_left"
 
 [node name="right" type="TouchScreenButton" parent="."]
-position = Vector2( 374.744, 88.3658 )
-scale = Vector2( 0.368745, 0.379342 )
-normal = ExtResource( 2 )
+position = Vector2( 159.573, 59.827 )
+rotation = 3.14159
+scale = Vector2( 2, 2 )
+normal = ExtResource( 5 )
+pressed = ExtResource( 1 )
 action = "ui_right"
 
 [node name="up" type="TouchScreenButton" parent="."]
-position = Vector2( 297.814, 14.7752 )
-scale = Vector2( 0.362337, 0.355595 )
-normal = ExtResource( 4 )
+position = Vector2( 66.3426, -155.723 )
+rotation = 1.5708
+scale = Vector2( 2, 2 )
+normal = ExtResource( 5 )
+pressed = ExtResource( 1 )
 action = "ui_up"
 
 [node name="down" type="TouchScreenButton" parent="."]
-position = Vector2( 302.764, 138.529 )
-scale = Vector2( 0.345334, 0.335868 )
-normal = ExtResource( 3 )
+position = Vector2( -55.2173, 152.796 )
+rotation = 4.71239
+scale = Vector2( 2, 2 )
+normal = ExtResource( 5 )
+pressed = ExtResource( 1 )
 action = "ui_down"
