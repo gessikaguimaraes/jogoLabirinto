@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://Fonts/Lobster-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Fonts/PTSerif-Regular.ttf" type="DynamicFontData" id=2]
@@ -19,16 +19,36 @@ shadow_size = 20
 size = 50
 font_data = ExtResource( 1 )
 
-[sub_resource type="StyleBoxFlat" id=3]
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxFlat" id=4]
 bg_color = Color( 0.988235, 0.588235, 0.709804, 0.6 )
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="DynamicFont" id=5]
 size = 40
 font_data = ExtResource( 2 )
 
-[sub_resource type="StyleBoxTexture" id=5]
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="StyleBoxTexture" id=7]
 texture = ExtResource( 3 )
 region_rect = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="StyleBoxEmpty" id=8]
+
+[sub_resource type="StyleBoxEmpty" id=9]
+
+[sub_resource type="StyleBoxEmpty" id=10]
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+[sub_resource type="StyleBoxEmpty" id=13]
+
+[sub_resource type="StyleBoxEmpty" id=14]
+
+[sub_resource type="StyleBoxEmpty" id=15]
 
 [node name="Niveis" type="Node2D"]
 script = ExtResource( 4 )
@@ -78,8 +98,9 @@ margin_right = 279.0
 margin_bottom = 105.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "1"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -91,9 +112,10 @@ margin_right = 562.0
 margin_bottom = 105.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 6 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "2"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -105,9 +127,10 @@ margin_right = 279.0
 margin_bottom = 214.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 8 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "3"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -120,9 +143,10 @@ margin_right = 562.0
 margin_bottom = 214.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 9 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "4"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -134,9 +158,10 @@ margin_right = 279.0
 margin_bottom = 323.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 10 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "5"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -149,9 +174,10 @@ margin_right = 562.0
 margin_bottom = 323.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 11 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "6"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -163,9 +189,10 @@ margin_right = 279.0
 margin_bottom = 432.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 12 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "7"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -178,9 +205,10 @@ margin_right = 562.0
 margin_bottom = 432.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 13 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "8"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -192,9 +220,10 @@ margin_right = 279.0
 margin_bottom = 541.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 14 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "9"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -207,9 +236,10 @@ margin_right = 562.0
 margin_bottom = 541.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/disabled = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 15 )
+custom_styles/disabled = SubResource( 7 )
+custom_styles/normal = SubResource( 4 )
+custom_fonts/font = SubResource( 5 )
 text = "10"
 __meta__ = {
 "_edit_use_anchors_": false

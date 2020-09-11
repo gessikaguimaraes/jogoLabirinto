@@ -8,7 +8,7 @@ func _ready():
 #	print(music)
 	var control = Game.readData('control')
 #	print(control)
-#	Game.onlySaveData(true)
+	Game.onlySaveData(true)
 
 #	musicButton.toggle_mode = true
 #	if global.music:

@@ -1,12 +1,11 @@
 extends Node2D
 
-func _ready():
-	print(global.control)
+func _process(delta):
+#	print(global.control)
 	if global.control:
 		$ControleMobile.visible = true
 	else:
 		$ControleMobile.visible = false
-	pass # Replace with function body.
 
 #
 #func _draw():

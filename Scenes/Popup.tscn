@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Fonts/Lobster-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/icones/baseline_reply_white_18dp.png" type="Texture" id=2]
@@ -11,7 +11,9 @@
 size = 50
 font_data = ExtResource( 1 )
 
-[sub_resource type="StyleBoxFlat" id=2]
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="StyleBoxFlat" id=3]
 bg_color = Color( 0.901961, 0.160784, 0.388235, 0.6 )
 corner_radius_top_left = 30
 corner_radius_top_right = 30
@@ -19,6 +21,10 @@ corner_radius_bottom_right = 30
 corner_radius_bottom_left = 30
 shadow_color = Color( 0.901961, 0.160784, 0.388235, 0.6 )
 shadow_size = 5
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="StyleBoxEmpty" id=5]
 
 [node name="Popup" type="Popup"]
 pause_mode = 2
@@ -35,8 +41,8 @@ __meta__ = {
 [node name="Background" type="Sprite" parent="."]
 modulate = Color( 0.439216, 0.439216, 0.439216, 0.6 )
 self_modulate = Color( 0.439216, 0.439216, 0.439216, 0.6 )
-position = Vector2( -51.6332, -298.575 )
-scale = Vector2( 1, 1.01052 )
+position = Vector2( -60.1089, -298.575 )
+scale = Vector2( 1.01177, 1.01052 )
 texture = ExtResource( 6 )
 centered = false
 
@@ -60,7 +66,8 @@ margin_left = 55.02
 margin_top = 464.0
 margin_right = 148.02
 margin_bottom = 554.0
-custom_styles/normal = SubResource( 2 )
+custom_styles/focus = SubResource( 6 )
+custom_styles/normal = SubResource( 3 )
 icon = ExtResource( 2 )
 expand_icon = true
 __meta__ = {
@@ -74,7 +81,8 @@ margin_left = 245.723
 margin_top = 466.119
 margin_right = 338.723
 margin_bottom = 556.119
-custom_styles/normal = SubResource( 2 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/normal = SubResource( 3 )
 icon = ExtResource( 3 )
 expand_icon = true
 __meta__ = {
@@ -88,7 +96,8 @@ margin_left = 439.605
 margin_top = 466.119
 margin_right = 532.605
 margin_bottom = 556.119
-custom_styles/normal = SubResource( 2 )
+custom_styles/focus = SubResource( 5 )
+custom_styles/normal = SubResource( 3 )
 icon = ExtResource( 4 )
 expand_icon = true
 __meta__ = {
