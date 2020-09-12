@@ -9,12 +9,18 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Node",
+"class": "AdMob",
+"language": "GDScript",
+"path": "res://admob-lib/admob.gd"
+}, {
 "base": "TouchScreenButton",
 "class": "TouchScreenClass",
 "language": "GDScript",
 "path": "res://Spript/TouchScreenButton.gd"
 } ]
 _global_script_class_icons={
+"AdMob": "res://admob-lib/icon.png",
 "TouchScreenClass": ""
 }
 

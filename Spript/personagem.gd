@@ -3,11 +3,16 @@ extends KinematicBody2D
 export (Texture) var personagem
 export (int) var fase = 1
 
+var target = Vector2()
 var movimento = Vector2()
 var velocidade = 300
 
 func _ready():
 	$Sprite.texture = personagem
+
+func _input(event):
+	if event is InputEventScreenTouch:
+		target = get_global_mouse_position()
 
 func _physics_process(delta):
 	if global.control:
@@ -25,8 +30,12 @@ func _physics_process(delta):
 			movimento.y = 0
 		move_and_slide(movimento)
 	else:
-		var motionx=(get_global_mouse_position().x-position.x)*0.5
-		var motiony=(get_global_mouse_position().y-position.y)*0.5
-		move_and_slide(Vector2(motionx,motiony))
+#		var motionx=(get_global_mouse_position().x-position.x)*0.5
+#		var motiony=(get_global_mouse_position().y-position.y)*0.5
+#		move_and_slide(Vector2(motionx,motiony))
+		movimento = position.direction_to(target) * velocidade
+		# look_at(target)
+		if position.distance_to(target) > 5:
+			movimento = move_and_slide(movimento)
 	
 
