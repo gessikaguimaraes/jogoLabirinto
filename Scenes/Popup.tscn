@@ -11,7 +11,7 @@
 size = 50
 font_data = ExtResource( 1 )
 
-[sub_resource type="StyleBoxEmpty" id=6]
+[sub_resource type="StyleBoxEmpty" id=2]
 
 [sub_resource type="StyleBoxFlat" id=3]
 bg_color = Color( 0.901961, 0.160784, 0.388235, 0.6 )
@@ -28,7 +28,6 @@ shadow_size = 5
 
 [node name="Popup" type="Popup"]
 pause_mode = 2
-visible = true
 margin_left = 56.0
 margin_top = 295.0
 margin_right = 654.0
@@ -66,7 +65,7 @@ margin_left = 55.02
 margin_top = 464.0
 margin_right = 148.02
 margin_bottom = 554.0
-custom_styles/focus = SubResource( 6 )
+custom_styles/focus = SubResource( 2 )
 custom_styles/normal = SubResource( 3 )
 icon = ExtResource( 2 )
 expand_icon = true

@@ -3,54 +3,58 @@ extends PopupPanel
 onready var musicButton = $GridContainer/Container/VBoxContainer/MusicButton
 onready var controleButton = $GridContainer/Container/VBoxContainer/controleButton
 
-func _ready():
-	var music = Game.readData('music')
-#	print(music)
-	var control = Game.readData('control')
-#	print(control)
-	Game.onlySaveData(true)
+export (Texture) var musicHabilitado
+export (Texture) var musicDesabilitado
 
-#	musicButton.toggle_mode = true
-#	if global.music:
-#		musicButton.set_toggle_mode(true)
-##		MusicController.play_music()
-#	else:
-#		musicButton.set_toggle_mode(false)
+export (Texture) var controlHabilitado
+export (Texture) var controlDesabilitado
+
+var music 
+var control
 	
-#	if global.control:
-#		controleButton.toggle_mode = true
-#	else:
-#		controleButton.toggle_mode = false
 
+func _ready():
+	music = Game.readData('music')
+	control = Game.readData('control')
+	Game.onlySaveData(true)
+	controlarMusica()
+	controlarControle()
+	
+func controlarMusica():
+	if music:
+		get_node("GridContainer/Container/VBoxContainer/TextureButton").texture_normal = musicHabilitado
+	else:
+		get_node("GridContainer/Container/VBoxContainer/TextureButton").texture_normal = musicDesabilitado
+
+func controlarControle():
+	if control:
+		get_node("GridContainer/Container/VBoxContainer/Controle").texture_normal = controlHabilitado
+	else:
+		get_node("GridContainer/Container/VBoxContainer/Controle").texture_normal = controlDesabilitado
 
 func _on_fechar_pressed():
 	get_tree().paused = false
 	$".".hide()
 
-func _on_MusicButton_toggled(button_pressed):
-#	if button_pressed == true:
-#		AudioServer.set_bus_mute(0,true)
-#	else:
-#		AudioServer.set_bus_mute(0,false)
-	if button_pressed:
-		MusicController.play_music()
-	else:
-#		MusicController.connect("toggled", self, "stop_music")
+func _on_TextureButton_pressed():
+	music = Game.readData('music')
+	if music:
+		global.music = false
 		MusicController.stop_music()
-	print(button_pressed)
-	global.music = button_pressed
-	Game.saveData({"music": button_pressed})
-
-func _on_controleButton_toggled(button_pressed):
-	global.control = button_pressed
-	Game.saveData({"control": button_pressed})
-
-func _on_Button_pressed():
-	var t
-	if global.control:
-		t = false
+		get_node("GridContainer/Container/VBoxContainer/TextureButton").texture_normal = musicDesabilitado
 	else:
-		t = true
-	global.control = t
-	Game.saveData({"control": t})
+		global.music = true
+		MusicController.play_music()
+		get_node("GridContainer/Container/VBoxContainer/TextureButton").texture_normal = musicHabilitado
+	Game.saveData({"music": global.music})
+
+func _on_Controle_pressed():
+	control = Game.readData('control')
+	if control:
+		global.control = false
+		get_node("GridContainer/Container/VBoxContainer/Controle").texture_normal = controlDesabilitado
+	else:
+		get_node("GridContainer/Container/VBoxContainer/Controle").texture_normal = controlHabilitado
+		global.control = true
+	Game.saveData({"control": global.control})
 	pass # Replace with function body.

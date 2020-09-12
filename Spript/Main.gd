@@ -1,10 +1,11 @@
 extends Node2D
 
-#func _ready():
-#	if global.music == true:
-#		MusicController.play_music()
-#	else:
-#		MusicController.stop_music()
+func _ready():
+	var music = Game.readData('music')
+	if music:
+		MusicController.play_music()
+	else:
+		MusicController.stop_music()
 
 func _on_Iniciar_pressed():
 	get_tree().change_scene("res://Scenes/Niveis.tscn")
