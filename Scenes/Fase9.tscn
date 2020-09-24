@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://paredes.tres" type="TileSet" id=1]
 [ext_resource path="res://assets/images/personagem1.png" type="Texture" id=2]
@@ -6,9 +6,15 @@
 [ext_resource path="res://Scenes/ControleMobile.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/personagem.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=6]
+[ext_resource path="res://assets/images/safari.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/Topo/Topo9.tscn" type="PackedScene" id=8]
 
 [node name="Fase9" type="Node2D"]
 script = ExtResource( 6 )
+
+[node name="Background" type="Sprite" parent="."]
+texture = ExtResource( 7 )
+centered = false
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
@@ -27,3 +33,5 @@ fase = 9
 
 [node name="ControleMobile" parent="." instance=ExtResource( 4 )]
 position = Vector2( 319.613, 899.441 )
+
+[node name="Topo" parent="." instance=ExtResource( 8 )]

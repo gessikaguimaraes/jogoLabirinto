@@ -1,4 +1,4 @@
-#Sat Sep 12 11:37:28 BRT 2020
+#Thu Sep 24 15:16:40 BRT 2020
 base.0=G\:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

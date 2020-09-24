@@ -12,7 +12,7 @@ func _on_Area2D_body_entered(body):
 	
 	$Popup/Label.text = "Nível " + str(fase) + "\n Completado!"
 	if fase != 10:
-		global.level +=1
+		global.level = fase + 1
 	else:
 		global.level = 10
 
@@ -21,5 +21,4 @@ func _on_Area2D_body_entered(body):
 	elif global.unlockedLevels < global.level:
 		global.unlockedLevels += 1
 	Game.saveData({"level": global.unlockedLevels})
-
-	pass # Replace with function body.
+	print(global.level)

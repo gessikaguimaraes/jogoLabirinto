@@ -11,4 +11,3 @@ func _on_jogarNovamente_pressed():
 func _on_avancar_pressed():
 	get_tree().paused = false
 	get_tree().change_scene("res://Scenes/Fase" + str(global.level) +  ".tscn")
-

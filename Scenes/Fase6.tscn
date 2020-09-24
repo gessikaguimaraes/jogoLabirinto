@@ -6,7 +6,7 @@
 [ext_resource path="res://Scenes/ControleMobile.tscn" type="PackedScene" id=4]
 [ext_resource path="res://assets/images/personagem1.png" type="Texture" id=5]
 [ext_resource path="res://assets/images/fazenda.png" type="Texture" id=6]
-[ext_resource path="res://Scenes/Topo/Topo5.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Scenes/Topo/Topo6.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=8]
 
 [node name="Fase6" type="Node2D"]

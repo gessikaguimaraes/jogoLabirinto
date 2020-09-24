@@ -36,6 +36,7 @@ position = Vector2( 341.819, 877.33 )
 fase = 5
 
 [node name="Topo" parent="." instance=ExtResource( 6 )]
+numeroFase = 5
 
 [node name="ControleMobile" parent="." instance=ExtResource( 4 )]
 position = Vector2( 325.701, 897.012 )
