@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://paredes.tres" type="TileSet" id=1]
 [ext_resource path="res://assets/images/personagem1.png" type="Texture" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=6]
 [ext_resource path="res://assets/images/cidade.png" type="Texture" id=7]
 [ext_resource path="res://Scenes/Topo/Topo7.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/images/Fases/casa.png" type="Texture" id=9]
 
 [node name="Fase7" type="Node2D"]
 script = ExtResource( 6 )
@@ -30,6 +31,7 @@ fase = 7
 [node name="saida" parent="." instance=ExtResource( 3 )]
 position = Vector2( 363.267, 978.803 )
 fase = 7
+desenho = ExtResource( 9 )
 
 [node name="ControleMobile" parent="." instance=ExtResource( 4 )]
 position = Vector2( 360.407, 907.691 )

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://paredes.tres" type="TileSet" id=1]
 [ext_resource path="res://Scenes/personagem.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=6]
 [ext_resource path="res://assets/images/doces.png" type="Texture" id=7]
 [ext_resource path="res://Scenes/Topo/Topo10.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/images/Fases/donut.png" type="Texture" id=9]
 
 [node name="Fase10" type="Node2D"]
 script = ExtResource( 6 )
@@ -25,6 +26,7 @@ tile_data = PoolIntArray( 524289, 7, 0, 524290, 7, 0, 524291, 7, 0, 524292, 7, 0
 [node name="saida" parent="." instance=ExtResource( 3 )]
 position = Vector2( 63.9289, 991.879 )
 fase = 10
+desenho = ExtResource( 9 )
 
 [node name="personagem" parent="." instance=ExtResource( 2 )]
 position = Vector2( 171.633, 786.122 )

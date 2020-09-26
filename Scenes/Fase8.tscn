@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://paredes.tres" type="TileSet" id=1]
 [ext_resource path="res://assets/images/personagem1.png" type="Texture" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Scenes/Topo/Topo8.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Scenes/personagem.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=8]
+[ext_resource path="res://assets/images/Fases/peixe.png" type="Texture" id=9]
 
 [node name="Fase8" type="Node2D"]
 script = ExtResource( 8 )
@@ -34,6 +35,7 @@ fase = 8
 [node name="saida" parent="." instance=ExtResource( 3 )]
 position = Vector2( 566.36, 374.577 )
 fase = 8
+desenho = ExtResource( 9 )
 
 [node name="Topo" parent="." instance=ExtResource( 6 )]
 

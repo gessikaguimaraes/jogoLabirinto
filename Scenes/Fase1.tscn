@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://paredes.tres" type="TileSet" id=1]
 [ext_resource path="res://assets/images/neve.png" type="Texture" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Scenes/Topo/Topo.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=7]
 [ext_resource path="res://Scenes/ControleMobile.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/images/Fases/boneco_neve.png" type="Texture" id=9]
 
 [node name="Fase1" type="Node2D"]
 script = ExtResource( 7 )
@@ -32,6 +33,7 @@ personagem = ExtResource( 5 )
 
 [node name="saida" parent="." instance=ExtResource( 4 )]
 position = Vector2( 489.946, 774.625 )
+desenho = ExtResource( 9 )
 
 [node name="Topo" parent="." instance=ExtResource( 6 )]
 margin_left = -3.48975

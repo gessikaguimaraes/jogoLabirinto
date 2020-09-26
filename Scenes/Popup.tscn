@@ -95,6 +95,9 @@ expand_icon = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 291.352, 296.65 )
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]
 [connection signal="pressed" from="jogarNovamente" to="." method="_on_jogarNovamente_pressed"]
 [connection signal="pressed" from="avancar" to="." method="_on_avancar_pressed"]
