@@ -442,49 +442,57 @@ public final class R {
   }
   public static final class string {
     public static final int common_google_play_services_unknown_issue=0x7f090000;
-    public static final int godot_project_name_string=0x7f090001;
-    public static final int kilobytes_per_second=0x7f090002;
-    public static final int notification_download_complete=0x7f090003;
-    public static final int notification_download_failed=0x7f090004;
-    public static final int s1=0x7f090005;
-    public static final int s2=0x7f090006;
-    public static final int s3=0x7f090007;
-    public static final int s4=0x7f090008;
-    public static final int s5=0x7f090009;
-    public static final int s6=0x7f09000a;
-    public static final int s7=0x7f09000b;
-    public static final int state_completed=0x7f09000c;
-    public static final int state_connecting=0x7f09000d;
-    public static final int state_downloading=0x7f09000e;
-    public static final int state_failed=0x7f09000f;
-    public static final int state_failed_cancelled=0x7f090010;
-    public static final int state_failed_fetching_url=0x7f090011;
-    public static final int state_failed_sdcard_full=0x7f090012;
-    public static final int state_failed_unlicensed=0x7f090013;
-    public static final int state_fetching_url=0x7f090014;
-    public static final int state_idle=0x7f090015;
-    public static final int state_paused_by_request=0x7f090016;
-    public static final int state_paused_network_setup_failure=0x7f090017;
-    public static final int state_paused_network_unavailable=0x7f090018;
-    public static final int state_paused_roaming=0x7f090019;
-    public static final int state_paused_sdcard_unavailable=0x7f09001a;
-    public static final int state_paused_wifi_disabled=0x7f09001b;
-    public static final int state_paused_wifi_unavailable=0x7f09001c;
-    public static final int state_unknown=0x7f09001d;
-    public static final int status_bar_notification_info_overflow=0x7f09001e;
-    public static final int text_button_cancel=0x7f09001f;
-    public static final int text_button_cancel_verify=0x7f090020;
-    public static final int text_button_pause=0x7f090021;
-    public static final int text_button_resume=0x7f090022;
-    public static final int text_button_resume_cellular=0x7f090023;
-    public static final int text_button_wifi_settings=0x7f090024;
-    public static final int text_paused_cellular=0x7f090025;
-    public static final int text_paused_cellular_2=0x7f090026;
-    public static final int text_validation_complete=0x7f090027;
-    public static final int text_validation_failed=0x7f090028;
-    public static final int text_verifying_download=0x7f090029;
-    public static final int time_remaining=0x7f09002a;
-    public static final int time_remaining_notification=0x7f09002b;
+    public static final int default_web_client_id=0x7f090001;
+    public static final int firebase_database_url=0x7f090002;
+    public static final int gcm_defaultSenderId=0x7f090003;
+    public static final int godot_project_name_string=0x7f090004;
+    public static final int google_api_key=0x7f090005;
+    public static final int google_app_id=0x7f090006;
+    public static final int google_crash_reporting_api_key=0x7f090007;
+    public static final int google_storage_bucket=0x7f090008;
+    public static final int kilobytes_per_second=0x7f090009;
+    public static final int notification_download_complete=0x7f09000a;
+    public static final int notification_download_failed=0x7f09000b;
+    public static final int project_id=0x7f09000c;
+    public static final int s1=0x7f09000d;
+    public static final int s2=0x7f09000e;
+    public static final int s3=0x7f09000f;
+    public static final int s4=0x7f090010;
+    public static final int s5=0x7f090011;
+    public static final int s6=0x7f090012;
+    public static final int s7=0x7f090013;
+    public static final int state_completed=0x7f090014;
+    public static final int state_connecting=0x7f090015;
+    public static final int state_downloading=0x7f090016;
+    public static final int state_failed=0x7f090017;
+    public static final int state_failed_cancelled=0x7f090018;
+    public static final int state_failed_fetching_url=0x7f090019;
+    public static final int state_failed_sdcard_full=0x7f09001a;
+    public static final int state_failed_unlicensed=0x7f09001b;
+    public static final int state_fetching_url=0x7f09001c;
+    public static final int state_idle=0x7f09001d;
+    public static final int state_paused_by_request=0x7f09001e;
+    public static final int state_paused_network_setup_failure=0x7f09001f;
+    public static final int state_paused_network_unavailable=0x7f090020;
+    public static final int state_paused_roaming=0x7f090021;
+    public static final int state_paused_sdcard_unavailable=0x7f090022;
+    public static final int state_paused_wifi_disabled=0x7f090023;
+    public static final int state_paused_wifi_unavailable=0x7f090024;
+    public static final int state_unknown=0x7f090025;
+    public static final int status_bar_notification_info_overflow=0x7f090026;
+    public static final int text_button_cancel=0x7f090027;
+    public static final int text_button_cancel_verify=0x7f090028;
+    public static final int text_button_pause=0x7f090029;
+    public static final int text_button_resume=0x7f09002a;
+    public static final int text_button_resume_cellular=0x7f09002b;
+    public static final int text_button_wifi_settings=0x7f09002c;
+    public static final int text_paused_cellular=0x7f09002d;
+    public static final int text_paused_cellular_2=0x7f09002e;
+    public static final int text_validation_complete=0x7f09002f;
+    public static final int text_validation_failed=0x7f090030;
+    public static final int text_verifying_download=0x7f090031;
+    public static final int time_remaining=0x7f090032;
+    public static final int time_remaining_notification=0x7f090033;
   }
   public static final class style {
     public static final int ButtonBackground=0x7f0a0000;
@@ -514,9 +522,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AdsAttrs_adSize org.godotengine.fase1:adSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AdsAttrs_adSizes org.godotengine.fase1:adSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AdsAttrs_adUnitId org.godotengine.fase1:adUnitId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSize com.pinksplash.labirinto:adSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSizes com.pinksplash.labirinto:adSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adUnitId com.pinksplash.labirinto:adUnitId}</code></td><td></td></tr>
      * </table>
      * @see #AdsAttrs_adSize
      * @see #AdsAttrs_adSizes
@@ -526,33 +534,33 @@ public final class R {
       0x7f010000, 0x7f010001, 0x7f010002
     };
     /**
-     * <p>This symbol is the offset where the {@link org.godotengine.fase1.R.attr#adSize}
+     * <p>This symbol is the offset where the {@link com.pinksplash.labirinto.R.attr#adSize}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.godotengine.fase1:adSize
+     * @attr name com.pinksplash.labirinto:adSize
      */
     public static final int AdsAttrs_adSize=0;
     /**
-     * <p>This symbol is the offset where the {@link org.godotengine.fase1.R.attr#adSizes}
+     * <p>This symbol is the offset where the {@link com.pinksplash.labirinto.R.attr#adSizes}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.godotengine.fase1:adSizes
+     * @attr name com.pinksplash.labirinto:adSizes
      */
     public static final int AdsAttrs_adSizes=1;
     /**
-     * <p>This symbol is the offset where the {@link org.godotengine.fase1.R.attr#adUnitId}
+     * <p>This symbol is the offset where the {@link com.pinksplash.labirinto.R.attr#adUnitId}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.godotengine.fase1:adUnitId
+     * @attr name com.pinksplash.labirinto:adUnitId
      */
     public static final int AdsAttrs_adUnitId=2;
     /**
@@ -564,7 +572,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha org.godotengine.fase1:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.pinksplash.labirinto:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -601,7 +609,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name org.godotengine.fase1:alpha
+     * @attr name com.pinksplash.labirinto:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -611,9 +619,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines org.godotengine.fase1:keylines}</code></td><td>A reference to an array of integers representing the
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.pinksplash.labirinto:keylines}</code></td><td>A reference to an array of integers representing the
      * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground org.godotengine.fase1:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.pinksplash.labirinto:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -635,7 +643,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.godotengine.fase1:keylines
+     * @attr name com.pinksplash.labirinto:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
@@ -651,7 +659,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.godotengine.fase1:statusBarBackground
+     * @attr name com.pinksplash.labirinto:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -662,15 +670,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor org.godotengine.fase1:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity org.godotengine.fase1:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.pinksplash.labirinto:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.pinksplash.labirinto:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
      * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior org.godotengine.fase1:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.pinksplash.labirinto:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
      * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges org.godotengine.fase1:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge org.godotengine.fase1:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.pinksplash.labirinto:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.pinksplash.labirinto:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
      * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline org.godotengine.fase1:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.pinksplash.labirinto:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -723,7 +731,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.godotengine.fase1:layout_anchor
+     * @attr name com.pinksplash.labirinto:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
@@ -760,7 +768,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      *
-     * @attr name org.godotengine.fase1:layout_anchorGravity
+     * @attr name com.pinksplash.labirinto:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
@@ -772,7 +780,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.godotengine.fase1:layout_behavior
+     * @attr name com.pinksplash.labirinto:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
@@ -796,7 +804,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
      * </table>
      *
-     * @attr name org.godotengine.fase1:layout_dodgeInsetEdges
+     * @attr name com.pinksplash.labirinto:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
@@ -820,7 +828,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
      * </table>
      *
-     * @attr name org.godotengine.fase1:layout_insetEdge
+     * @attr name com.pinksplash.labirinto:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
@@ -832,7 +840,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name org.godotengine.fase1:layout_keyline
+     * @attr name com.pinksplash.labirinto:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -842,12 +850,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority org.godotengine.fase1:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts org.godotengine.fase1:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy org.godotengine.fase1:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout org.godotengine.fase1:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage org.godotengine.fase1:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery org.godotengine.fase1:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.pinksplash.labirinto:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.pinksplash.labirinto:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.pinksplash.labirinto:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.pinksplash.labirinto:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.pinksplash.labirinto:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.pinksplash.labirinto:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -868,7 +876,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.godotengine.fase1:fontProviderAuthority
+     * @attr name com.pinksplash.labirinto:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
@@ -885,7 +893,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.godotengine.fase1:fontProviderCerts
+     * @attr name com.pinksplash.labirinto:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
@@ -917,7 +925,7 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      *
-     * @attr name org.godotengine.fase1:fontProviderFetchStrategy
+     * @attr name com.pinksplash.labirinto:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
@@ -936,7 +944,7 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      *
-     * @attr name org.godotengine.fase1:fontProviderFetchTimeout
+     * @attr name com.pinksplash.labirinto:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
@@ -948,7 +956,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.godotengine.fase1:fontProviderPackage
+     * @attr name com.pinksplash.labirinto:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
@@ -960,7 +968,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.godotengine.fase1:fontProviderQuery
+     * @attr name com.pinksplash.labirinto:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -975,11 +983,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font org.godotengine.fase1:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle org.godotengine.fase1:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings org.godotengine.fase1:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight org.godotengine.fase1:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex org.godotengine.fase1:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.pinksplash.labirinto:font}</code></td><td>The reference to the font file to be used.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.pinksplash.labirinto:fontStyle}</code></td><td>The style of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.pinksplash.labirinto:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.pinksplash.labirinto:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.pinksplash.labirinto:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -1066,7 +1074,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.godotengine.fase1:font
+     * @attr name com.pinksplash.labirinto:font
      */
     public static final int FontFamilyFont_font=5;
     /**
@@ -1086,7 +1094,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name org.godotengine.fase1:fontStyle
+     * @attr name com.pinksplash.labirinto:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
@@ -1100,7 +1108,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.godotengine.fase1:fontVariationSettings
+     * @attr name com.pinksplash.labirinto:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
@@ -1114,7 +1122,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name org.godotengine.fase1:fontWeight
+     * @attr name com.pinksplash.labirinto:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
@@ -1125,7 +1133,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name org.godotengine.fase1:ttcIndex
+     * @attr name com.pinksplash.labirinto:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**

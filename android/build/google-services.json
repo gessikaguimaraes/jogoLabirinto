@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "8596697550",
+    "firebase_url": "https://labirinto-3760d.firebaseio.com",
+    "project_id": "labirinto-3760d",
+    "storage_bucket": "labirinto-3760d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8596697550:android:1cbc81d21b61476b0afb9f",
+        "android_client_info": {
+          "package_name": "com.pinksplash.labirinto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8596697550-brvilmaao7suaav100c4h2tsk8f0f5oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwaqkeA2gn7rJXkO6iVOFhOuNi6TiHXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8596697550-brvilmaao7suaav100c4h2tsk8f0f5oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

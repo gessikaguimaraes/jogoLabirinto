@@ -1,4 +1,4 @@
-org.godotengine.fase1
+com.pinksplash.labirinto
 attr adSize
 attr adSizes
 attr adUnitId
@@ -177,10 +177,18 @@ mipmap icon
 mipmap icon_background
 mipmap icon_foreground
 string common_google_play_services_unknown_issue
+string default_web_client_id
+string firebase_database_url
+string gcm_defaultSenderId
 string godot_project_name_string
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string kilobytes_per_second
 string notification_download_complete
 string notification_download_failed
+string project_id
 string s1
 string s2
 string s3

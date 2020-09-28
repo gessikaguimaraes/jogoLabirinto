@@ -1,31 +1,20 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Fonts/Lobster-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/images/botao_voltar.png" type="Texture" id=2]
-[ext_resource path="res://assets/icones/baseline_replay_white_18dp.png" type="Texture" id=3]
-[ext_resource path="res://assets/icones/baseline_double_arrow_white_18dp.png" type="Texture" id=4]
+[ext_resource path="res://assets/images/botao_avancar.png" type="Texture" id=3]
+[ext_resource path="res://assets/images/botao_jogarNovamente.png" type="Texture" id=4]
 [ext_resource path="res://Spript/LevelComplete.gd" type="Script" id=5]
 [ext_resource path="res://assets/images/teste.png" type="Texture" id=6]
+[ext_resource path="res://admob-lib/admob.gd" type="Script" id=7]
 
 [sub_resource type="DynamicFont" id=1]
 size = 50
 font_data = ExtResource( 1 )
 
-[sub_resource type="StyleBoxEmpty" id=4]
-
-[sub_resource type="StyleBoxFlat" id=3]
-bg_color = Color( 0.901961, 0.160784, 0.388235, 0.6 )
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-shadow_color = Color( 0.901961, 0.160784, 0.388235, 0.6 )
-shadow_size = 5
-
-[sub_resource type="StyleBoxEmpty" id=5]
-
 [node name="Popup" type="Popup"]
 pause_mode = 2
+visible = true
 margin_left = 56.0
 margin_top = 295.0
 margin_right = 654.0
@@ -38,7 +27,7 @@ __meta__ = {
 [node name="Background" type="Sprite" parent="."]
 modulate = Color( 0.439216, 0.439216, 0.439216, 0.6 )
 self_modulate = Color( 0.439216, 0.439216, 0.439216, 0.6 )
-position = Vector2( -60.1089, -298.575 )
+position = Vector2( -60.1089, -297.315 )
 scale = Vector2( 1.01177, 1.01052 )
 texture = ExtResource( 6 )
 centered = false
@@ -66,38 +55,35 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="jogarNovamente" type="Button" parent="."]
-anchor_left = 0.01
-anchor_right = 0.01
-margin_left = 245.723
-margin_top = 466.119
-margin_right = 338.723
-margin_bottom = 556.119
-custom_styles/focus = SubResource( 4 )
-custom_styles/normal = SubResource( 3 )
-icon = ExtResource( 3 )
-expand_icon = true
+[node name="jogarNovamente" type="TextureButton" parent="."]
+margin_left = 247.857
+margin_top = 462.041
+margin_right = 347.857
+margin_bottom = 565.041
+texture_normal = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="avancar" type="Button" parent="."]
-anchor_left = 0.01
-anchor_right = 0.01
-margin_left = 439.605
-margin_top = 466.119
-margin_right = 532.605
-margin_bottom = 556.119
-custom_styles/focus = SubResource( 5 )
-custom_styles/normal = SubResource( 3 )
-icon = ExtResource( 4 )
-expand_icon = true
+[node name="avancar" type="TextureButton" parent="."]
+margin_left = 421.495
+margin_top = 456.943
+margin_right = 521.495
+margin_bottom = 556.943
+texture_normal = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 291.352, 296.65 )
+
+[node name="AdMob" type="Node" parent="."]
+script = ExtResource( 7 )
+banner_on_top = false
+banner_id = "ca-app-pub-3940256099942544/6300978111"
+interstitial_id = "ca-app-pub-3940256099942544/1033173712"
+rewarded_id = "ca-app-pub-3940256099942544/5224354917"
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]
 [connection signal="pressed" from="jogarNovamente" to="." method="_on_jogarNovamente_pressed"]
 [connection signal="pressed" from="avancar" to="." method="_on_avancar_pressed"]

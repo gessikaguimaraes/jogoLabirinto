@@ -3,15 +3,14 @@ extends PopupPanel
 onready var musicButton = $GridContainer/Container/VBoxContainer/MusicButton
 onready var controleButton = $GridContainer/Container/VBoxContainer/ControlButton
 
-export (Texture) var musicHabilitado
-export (Texture) var musicDesabilitado
+var musicHabilitado = load("res://assets/images/music_on.png")
+var musicDesabilitado = load("res://assets/images/music_off.png")
 
-export (Texture) var controlHabilitado
-export (Texture) var controlDesabilitado
+var controlHabilitado = load("res://assets/images/control_on.png")
+var controlDesabilitado = load("res://assets/images/control_off.png")
 
 var music 
 var control
-	
 
 func _ready():
 	music = Game.readData('music')
@@ -36,18 +35,6 @@ func _on_fechar_pressed():
 	get_tree().paused = false
 	$".".hide()
 
-func _on_TextureButton_pressed():
-	music = Game.readData('music')
-	if music:
-		global.music = false
-		MusicController.stop_music()
-		musicButton.texture_normal = musicDesabilitado
-	else:
-		global.music = true
-		MusicController.play_music()
-		musicDesabilitado.texture_normal = musicHabilitado
-	Game.saveData({"music": global.music})
-
 func _on_Controle_pressed():
 	control = Game.readData('control')
 	if control:
@@ -57,4 +44,15 @@ func _on_Controle_pressed():
 		controleButton.texture_normal = controlHabilitado
 		global.control = true
 	Game.saveData({"control": global.control})
-	pass # Replace with function body.
+
+func _on_MusicButton_pressed():
+	music = Game.readData('music')
+	if music:
+		global.music = false
+		MusicController.stop_music()
+		musicButton.texture_normal = musicDesabilitado
+	else:
+		global.music = true
+		MusicController.play_music()
+		musicButton.texture_normal = musicHabilitado
+	Game.saveData({"music": global.music})

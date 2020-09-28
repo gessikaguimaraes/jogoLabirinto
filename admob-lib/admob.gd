@@ -31,7 +31,6 @@ var _admob_singleton = null
 var _is_interstitial_loaded:bool = false
 var _is_rewarded_video_loaded:bool = false
 
-
 func _enter_tree():
 	if not init():
 		print("AdMob Java Singleton not found")
@@ -171,8 +170,3 @@ func _on_rewarded_video_ad_opened() -> void:
 	
 func _on_rewarded_video_started() -> void:
 	emit_signal("rewarded_video_started")
-
-func _on_Iniciar_pressed():
-	load_banner()
-	show_banner()
-	pass # Replace with function body.

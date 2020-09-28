@@ -1,6 +1,9 @@
 extends Node2D
 
+onready var admob = $AdMob
+
 func _ready():
+	admob.load_banner()
 	var music = Game.readData('music')
 	if music:
 		MusicController.play_music()
@@ -8,9 +11,7 @@ func _ready():
 		MusicController.stop_music()
 
 func _on_Iniciar_pressed():
-#	$Iniciar.modulate.r = 1
-#	$Iniciar.modulate.g = 0.56
-#	$Iniciar.modulate.b = 1
+	admob.show_banner()
 	get_tree().change_scene("res://Scenes/Niveis.tscn")
 
 func _on_Sair_pressed():

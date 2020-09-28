@@ -16,6 +16,7 @@ buildscript {
     dependencies {
         classpath libraries.androidGradlePlugin
         classpath libraries.kotlinGradlePlugin
+		classpath 'com.google.gms:google-services:4.3.3'
 //CHUNK_BUILDSCRIPT_DEPENDENCIES_BEGIN
 //CHUNK_BUILDSCRIPT_DEPENDENCIES_END
     }
@@ -43,10 +44,15 @@ allprojects {
     }
 }
 
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
 dependencies {
     implementation libraries.supportCoreUtils
     implementation libraries.kotlinStdLib
     implementation libraries.v4Support
+	
+	implementation 'com.google.firebase:firebase-analytics:17.5.0'
 
     if (rootProject.findProject(":lib")) {
         implementation project(":lib")
