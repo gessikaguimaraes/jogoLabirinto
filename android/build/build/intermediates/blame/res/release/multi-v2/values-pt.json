@@ -4,17 +4,7 @@
             "outputFile": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\efac7106ecacf47f180adf10a55d85d8\\godot-lib.release\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "75",
-                        "endOffsets": "126"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\e88442ec705b6b47ee3d0278e28e5481\\core-1.0.0\\res\\values-pt\\values-pt.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\e88442ec705b6b47ee3d0278e28e5481\\core-1.0.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "131",
                         "endColumns": "100",
                         "endOffsets": "227"
+                    }
+                },
+                {
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\efac7106ecacf47f180adf10a55d85d8\\godot-lib.release\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
                     }
                 }
             ]

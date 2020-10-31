@@ -28,6 +28,8 @@ _global_script_class_icons={
 
 config/name="Fase 1"
 run/main_scene="res://Scenes/Main.tscn"
+boot_splash/image="res://assets/images/nome.png"
+boot_splash/bg_color=Color( 0.4, 0.772549, 0.996078, 1 )
 config/icon="res://icon.png"
 
 [autoload]

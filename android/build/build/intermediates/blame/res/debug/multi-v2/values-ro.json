@@ -4,7 +4,7 @@
             "outputFile": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\e88442ec705b6b47ee3d0278e28e5481\\core-1.0.0\\res\\values-ro\\values-ro.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\e88442ec705b6b47ee3d0278e28e5481\\core-1.0.0\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\9ce0d3287cfa34269232eaa0ceb5d767\\jetified-play-services-ads-19.1.0\\res\\values-ro\\values.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\5a81164471dcec5a1f57f4e43c53c39a\\jetified-play-services-basement-17.0.0\\res\\values-ro\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "199,272,397,464,530,619,733",
-                        "endColumns": "72,124,66,65,88,113,71",
-                        "endOffsets": "271,396,463,529,618,732,804"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "203",
+                        "endOffsets": "450"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "385,462,591,662,732,825,943",
-                        "endColumns": "76,128,70,69,92,117,75",
-                        "endOffsets": "457,586,657,727,820,938,1014"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
                     }
                 },
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\569137fd89362450c33892ca73db4ec0\\godot-lib.debug\\res\\values-ro\\values-ro.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\569137fd89362450c33892ca73db4ec0\\godot-lib.debug\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\8b0d21937c0f39b1d4a2bda8ed8506d9\\jetified-play-services-basement-17.0.0\\res\\values-ro\\values.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\7b1b6e708781ad2ece7775b03ed5866a\\jetified-play-services-ads-19.1.0\\res\\values-ro\\values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "203",
-                        "endOffsets": "450"
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,272,397,464,530,619,733",
+                        "endColumns": "72,124,66,65,88,113,71",
+                        "endOffsets": "271,396,463,529,618,732,804"
                     },
                     "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "203",
-                        "endOffsets": "304"
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "385,462,591,662,732,825,943",
+                        "endColumns": "76,128,70,69,92,117,75",
+                        "endOffsets": "457,586,657,727,820,938,1014"
                     }
                 }
             ]

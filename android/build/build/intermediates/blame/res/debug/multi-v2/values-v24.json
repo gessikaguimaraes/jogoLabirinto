@@ -4,7 +4,7 @@
             "outputFile": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\0c79d89b44109b0c1646a9bc53443f88\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\0c79d89b44109b0c1646a9bc53443f88\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

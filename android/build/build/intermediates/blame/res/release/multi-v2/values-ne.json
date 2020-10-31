@@ -4,7 +4,7 @@
             "outputFile": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ne\\values-ne.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\e88442ec705b6b47ee3d0278e28e5481\\core-1.0.0\\res\\values-ne\\values-ne.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\e88442ec705b6b47ee3d0278e28e5481\\core-1.0.0\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\8b0d21937c0f39b1d4a2bda8ed8506d9\\jetified-play-services-basement-17.0.0\\res\\values-ne\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "222",
-                        "endOffsets": "469"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "222",
-                        "endOffsets": "323"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\9ce0d3287cfa34269232eaa0ceb5d767\\jetified-play-services-ads-19.1.0\\res\\values-ne\\values.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\7b1b6e708781ad2ece7775b03ed5866a\\jetified-play-services-ads-19.1.0\\res\\values-ne\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "328,414,539,618,698,796,917",
                         "endColumns": "85,124,78,79,97,120,77",
                         "endOffsets": "409,534,613,693,791,912,990"
+                    }
+                },
+                {
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\5a81164471dcec5a1f57f4e43c53c39a\\jetified-play-services-basement-17.0.0\\res\\values-ne\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "222",
+                        "endOffsets": "469"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "222",
+                        "endOffsets": "323"
                     }
                 }
             ]

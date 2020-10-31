@@ -1,24 +1,28 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://assets/images/background.png" type="Texture" id=1]
 [ext_resource path="res://Fonts/Lobster-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Scenes/Topo/TopoNivel.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/images/nome.png" type="Texture" id=4]
+[ext_resource path="res://assets/images/botao_voltar_grande.png" type="Texture" id=5]
+[ext_resource path="res://Spript/Final.gd" type="Script" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
 font_data = ExtResource( 2 )
 
 [node name="Final" type="Node2D"]
+script = ExtResource( 6 )
 
 [node name="Background" type="Sprite" parent="."]
 texture = ExtResource( 1 )
 centered = false
 
 [node name="Label" type="Label" parent="."]
-margin_left = 159.354
-margin_top = 556.549
-margin_right = 557.354
-margin_bottom = 683.549
+margin_left = 149.84
+margin_top = 637.415
+margin_right = 547.84
+margin_bottom = 764.415
 custom_fonts/font = SubResource( 1 )
 text = "Parabéns!"
 __meta__ = {
@@ -26,3 +30,19 @@ __meta__ = {
 }
 
 [node name="Topo" parent="." instance=ExtResource( 3 )]
+
+[node name="Logo" type="Sprite" parent="."]
+position = Vector2( 352.005, 442.385 )
+scale = Vector2( 0.630024, 0.596594 )
+texture = ExtResource( 4 )
+
+[node name="voltar" type="TextureButton" parent="."]
+margin_left = 188.988
+margin_top = 763.512
+margin_right = 494.988
+margin_bottom = 1073.51
+texture_normal = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

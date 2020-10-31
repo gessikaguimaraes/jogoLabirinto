@@ -4,7 +4,24 @@
             "outputFile": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\e88442ec705b6b47ee3d0278e28e5481\\core-1.0.0\\res\\values-da\\values-da.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\7b1b6e708781ad2ece7775b03ed5866a\\jetified-play-services-ads-19.1.0\\res\\values-da\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,267,379,445,508,590,707",
+                        "endColumns": "67,111,65,62,81,116,68",
+                        "endOffsets": "266,378,444,507,589,706,775"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "367,439,555,625,692,778,899",
+                        "endColumns": "71,115,69,66,85,120,72",
+                        "endOffsets": "434,550,620,687,773,894,967"
+                    }
+                },
+                {
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\e88442ec705b6b47ee3d0278e28e5481\\core-1.0.0\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\569137fd89362450c33892ca73db4ec0\\godot-lib.debug\\res\\values-da\\values-da.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\569137fd89362450c33892ca73db4ec0\\godot-lib.debug\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\8b0d21937c0f39b1d4a2bda8ed8506d9\\jetified-play-services-basement-17.0.0\\res\\values-da\\values.xml",
+                    "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\5a81164471dcec5a1f57f4e43c53c39a\\jetified-play-services-basement-17.0.0\\res\\values-da\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,23 +69,6 @@
                         "startOffsets": "105",
                         "endColumns": "185",
                         "endOffsets": "286"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\9ce0d3287cfa34269232eaa0ceb5d767\\jetified-play-services-ads-19.1.0\\res\\values-da\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "199,267,379,445,508,590,707",
-                        "endColumns": "67,111,65,62,81,116,68",
-                        "endOffsets": "266,378,444,507,589,706,775"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "367,439,555,625,692,778,899",
-                        "endColumns": "71,115,69,66,85,120,72",
-                        "endOffsets": "434,550,620,687,773,894,967"
                     }
                 }
             ]
