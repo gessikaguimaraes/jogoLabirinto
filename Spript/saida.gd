@@ -14,10 +14,7 @@ func _on_Area2D_body_entered(body):
 	$Popup/Label.text = "Nível " + str(fase) + "\n Completado!"
 	$Popup/Sprite.texture = desenho
 	
-	if fase != 10:
-		global.level = fase + 1
-	else:
-		global.level = 10
+	global.level = fase + 1
 
 	if global.unlockedLevels == 1:
 		global.unlockedLevels = 2

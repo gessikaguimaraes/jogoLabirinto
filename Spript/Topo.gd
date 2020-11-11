@@ -1,7 +1,8 @@
 extends Panel
 
 export var numeroFase = 1
-export(Color, RGB) var cor
+export(Color, RGB) var 
+onready var admob = $AdMob
 
 func _ready():
 #	get_node("Panel/nivel").text = str(numeroFase)
@@ -11,6 +12,7 @@ func _ready():
 func _on_voltar_pressed():
 	get_tree().paused = false
 	if  is_in_group("TelaNivel"):
+		admob.load_interstitial()
 		get_tree().change_scene("res://Scenes/Main.tscn")
 	else: 
 		get_tree().change_scene("res://Scenes/Niveis.tscn")

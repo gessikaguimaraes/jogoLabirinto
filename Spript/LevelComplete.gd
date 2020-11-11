@@ -16,7 +16,7 @@ func _on_jogarNovamente_pressed():
 
 func _on_avancar_pressed():
 	get_tree().paused = false
-	if global.level != 10:
+	if global.level <= 10:
 		get_tree().change_scene("res://Scenes/Fase" + str(global.level) +  ".tscn")
-	else:
+	elif global.level > 10:
 		get_tree().change_scene("res://Scenes/Final.tscn")
