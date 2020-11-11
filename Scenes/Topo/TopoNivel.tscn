@@ -45,6 +45,7 @@ __meta__ = {
 [node name="AdMob" type="Node" parent="."]
 script = ExtResource( 3 )
 is_real = true
+banner_on_top = false
 banner_id = "ca-app-pub-1556568734938950/6831743912"
 interstitial_id = "ca-app-pub-1556568734938950/5412696949"
 [connection signal="pressed" from="Configuracao" to="." method="_on_Configuracao_pressed"]
