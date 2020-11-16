@@ -1,7 +1,6 @@
 [gd_scene format=2]
 
 [node name="ConfirmationDialog" type="ConfirmationDialog"]
-visible = true
 margin_left = 260.331
 margin_top = 484.177
 margin_right = 460.331

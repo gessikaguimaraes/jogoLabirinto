@@ -6,7 +6,3 @@ func _process(delta):
 		$ControleMobile.visible = true
 	else:
 		$ControleMobile.visible = false
-
-#
-#func _draw():
-#	draw_line(Vector2(0,0), Vector2(50,50), Color.black)
