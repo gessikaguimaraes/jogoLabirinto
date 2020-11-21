@@ -7,7 +7,7 @@
 [ext_resource path="res://assets/images/bola_vermelha.png" type="Texture" id=5]
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=6]
 [ext_resource path="res://assets/images/doces.png" type="Texture" id=7]
-[ext_resource path="res://Scenes/Topo/Topo10.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Scenes/Topo.tscn" type="PackedScene" id=8]
 [ext_resource path="res://assets/images/Fases/donut.png" type="Texture" id=9]
 
 [node name="Fase10" type="Node2D"]
@@ -35,6 +35,7 @@ fase = 10
 
 [node name="Topo" parent="." instance=ExtResource( 8 )]
 numeroFase = 10
+cor = Color( 0.54902, 0.705882, 0.54902, 1 )
 
 [node name="ControleMobile" parent="." instance=ExtResource( 4 )]
 position = Vector2( 353.861, 892.068 )

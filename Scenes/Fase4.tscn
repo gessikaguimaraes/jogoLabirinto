@@ -5,7 +5,7 @@
 [ext_resource path="res://Scenes/saida.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/ControleMobile.tscn" type="PackedScene" id=4]
 [ext_resource path="res://assets/images/cozinha.png" type="Texture" id=5]
-[ext_resource path="res://Scenes/Topo/Topo4.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/Topo.tscn" type="PackedScene" id=6]
 [ext_resource path="res://assets/images/personagem1.png" type="Texture" id=7]
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=8]
 [ext_resource path="res://assets/images/Fases/cozinha.png" type="Texture" id=9]
@@ -38,6 +38,8 @@ fase = 4
 desenho = ExtResource( 9 )
 
 [node name="Topo" parent="." instance=ExtResource( 6 )]
+numeroFase = 4
+cor = Color( 0.4, 1, 0.8, 1 )
 
 [node name="ControleMobile" parent="." instance=ExtResource( 4 )]
 position = Vector2( 330.099, 897.064 )

@@ -5,7 +5,7 @@
 [ext_resource path="res://Scenes/personagem.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/saida.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/ControleMobile.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Scenes/Topo/Topo2.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/Topo.tscn" type="PackedScene" id=6]
 [ext_resource path="res://assets/images/bola_vermelha.png" type="Texture" id=7]
 [ext_resource path="res://Spript/Fase.gd" type="Script" id=8]
 [ext_resource path="res://assets/images/Fases/coqueiro.png" type="Texture" id=9]
@@ -38,6 +38,8 @@ fase = 2
 desenho = ExtResource( 9 )
 
 [node name="Topo" parent="." instance=ExtResource( 6 )]
+numeroFase = 2
+cor = Color( 0.988235, 0.905882, 0.521569, 1 )
 
 [node name="ControleMobile" parent="." instance=ExtResource( 5 )]
 position = Vector2( 336.739, 873.276 )
