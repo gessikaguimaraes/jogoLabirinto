@@ -12,7 +12,7 @@
         errorLine1="  classpath &apos;com.google.gms:google-services:4.3.3&apos;"
         errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\build.gradle"
+            file="G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\build.gradle"
             line="19"
             column="3"/>
     </issue>
@@ -28,7 +28,7 @@
         errorLine1=" implementation &apos;com.google.firebase:firebase-analytics:17.5.0&apos;"
         errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\build.gradle"
+            file="G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\build.gradle"
             line="55"
             column="2"/>
     </issue>

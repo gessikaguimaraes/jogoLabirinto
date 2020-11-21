@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto_2\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "G:\\ges_s\\.gradle\\caches\\transforms-2\\files-2.1\\5a81164471dcec5a1f57f4e43c53c39a\\jetified-play-services-basement-17.0.0\\res\\values\\values.xml",
@@ -56,6 +56,23 @@
                         "endLines": "59,64,65,66,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,94,95,96,97,98,99,100,101,102,103,104,105,106,109,112,119,123",
                         "endColumns": "72,58,76,78,61,78,67,56,69,110,105,111,80,68,67,105,108,88,119,95,101,51,53,73,60,62,71,68,166,181,103,79,70,63,65,12,12,12,12",
                         "endOffsets": "3988,4477,4554,4633,5127,5206,5274,5331,5401,5512,5618,5730,5811,5880,5948,6054,6163,6252,6372,6468,6570,6622,6747,6821,6882,6945,7017,7086,7253,7435,7539,7619,7690,7754,7820,7947,8073,8459,8637"
+                    }
+                },
+                {
+                    "source": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto_2\\android\\build\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,197,307,387,491,598,718,817",
+                        "endColumns": "141,109,79,103,106,119,98,75",
+                        "endOffsets": "192,302,382,486,593,713,812,888"
+                    },
+                    "to": {
+                        "startLines": "56,57,58,60,61,62,63,67",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3588,3730,3840,3993,4097,4204,4324,4638",
+                        "endColumns": "141,109,79,103,106,119,98,75",
+                        "endOffsets": "3725,3835,3915,4092,4199,4319,4418,4709"
                     }
                 },
                 {
@@ -145,23 +162,6 @@
                         "startOffsets": "4714,4756,4833,4871,4910,4963,5031",
                         "endColumns": "41,76,37,38,52,67,38",
                         "endOffsets": "4751,4828,4866,4905,4958,5026,5065"
-                    }
-                },
-                {
-                    "source": "G:\\Projetos\\jogos\\Labirinto_desenvolvendo\\jogoLabirinto\\android\\build\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,197,307,387,491,598,718,817",
-                        "endColumns": "141,109,79,103,106,119,98,75",
-                        "endOffsets": "192,302,382,486,593,713,812,888"
-                    },
-                    "to": {
-                        "startLines": "56,57,58,60,61,62,63,67",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3588,3730,3840,3993,4097,4204,4324,4638",
-                        "endColumns": "141,109,79,103,106,119,98,75",
-                        "endOffsets": "3725,3835,3915,4092,4199,4319,4418,4709"
                     }
                 }
             ]

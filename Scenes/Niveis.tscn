@@ -195,27 +195,32 @@ __meta__ = {
 }
 
 [node name="Panel" type="Container" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
+margin_left = 57.6786
+margin_top = 244.314
+margin_right = 708.679
+margin_bottom = 1357.31
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Levels" type="GridContainer" parent="Panel"]
-margin_left = 50.0
-margin_top = 300.0
-margin_right = 673.0
-margin_bottom = 1200.0
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel"]
+margin_right = 650.0
+margin_bottom = 1100.0
+scroll_horizontal_enabled = false
+
+[node name="Levels" type="GridContainer" parent="Panel/ScrollContainer"]
+margin_right = 574.0
+margin_bottom = 865.0
 custom_constants/vseparation = 50
 custom_constants/hseparation = 50
-columns = 2
+columns = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="1" type="Button" parent="Panel/Levels"]
-margin_right = 286.0
-margin_bottom = 140.0
+[node name="1" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_right = 106.0
+margin_bottom = 133.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 2 )
@@ -229,10 +234,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="2" type="Button" parent="Panel/Levels"]
-margin_left = 336.0
-margin_right = 622.0
-margin_bottom = 140.0
+[node name="2" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 156.0
+margin_right = 262.0
+margin_bottom = 133.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 7 )
@@ -246,10 +251,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="3" type="Button" parent="Panel/Levels"]
-margin_top = 190.0
-margin_right = 286.0
-margin_bottom = 330.0
+[node name="3" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 312.0
+margin_right = 418.0
+margin_bottom = 133.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 10 )
@@ -263,11 +268,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="4" type="Button" parent="Panel/Levels"]
-margin_left = 336.0
-margin_top = 190.0
-margin_right = 622.0
-margin_bottom = 330.0
+[node name="4" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 468.0
+margin_right = 574.0
+margin_bottom = 133.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 13 )
@@ -281,10 +285,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="5" type="Button" parent="Panel/Levels"]
-margin_top = 380.0
-margin_right = 286.0
-margin_bottom = 520.0
+[node name="5" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_top = 183.0
+margin_right = 106.0
+margin_bottom = 316.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 16 )
@@ -298,11 +302,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="6" type="Button" parent="Panel/Levels"]
-margin_left = 336.0
-margin_top = 380.0
-margin_right = 622.0
-margin_bottom = 520.0
+[node name="6" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 156.0
+margin_top = 183.0
+margin_right = 262.0
+margin_bottom = 316.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 19 )
@@ -316,10 +320,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="7" type="Button" parent="Panel/Levels"]
-margin_top = 570.0
-margin_right = 286.0
-margin_bottom = 710.0
+[node name="7" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 312.0
+margin_top = 183.0
+margin_right = 418.0
+margin_bottom = 316.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 22 )
@@ -333,11 +338,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="8" type="Button" parent="Panel/Levels"]
-margin_left = 336.0
-margin_top = 570.0
-margin_right = 622.0
-margin_bottom = 710.0
+[node name="8" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 468.0
+margin_top = 183.0
+margin_right = 574.0
+margin_bottom = 316.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 25 )
@@ -351,10 +356,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="9" type="Button" parent="Panel/Levels"]
-margin_top = 760.0
-margin_right = 286.0
-margin_bottom = 900.0
+[node name="9" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_top = 366.0
+margin_right = 106.0
+margin_bottom = 499.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 28 )
@@ -368,11 +373,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="10" type="Button" parent="Panel/Levels"]
-margin_left = 336.0
-margin_top = 760.0
-margin_right = 622.0
-margin_bottom = 900.0
+[node name="10" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 156.0
+margin_top = 366.0
+margin_right = 262.0
+margin_bottom = 499.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/pressed = SubResource( 31 )
@@ -382,6 +387,184 @@ custom_styles/normal = SubResource( 5 )
 custom_fonts/font = SubResource( 6 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "10"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="11" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 312.0
+margin_top = 366.0
+margin_right = 418.0
+margin_bottom = 499.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "11"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="12" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 468.0
+margin_top = 366.0
+margin_right = 574.0
+margin_bottom = 499.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "12"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="13" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_top = 549.0
+margin_right = 106.0
+margin_bottom = 682.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "13"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="14" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 156.0
+margin_top = 549.0
+margin_right = 262.0
+margin_bottom = 682.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "14"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="15" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 312.0
+margin_top = 549.0
+margin_right = 418.0
+margin_bottom = 682.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "15"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="16" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 468.0
+margin_top = 549.0
+margin_right = 574.0
+margin_bottom = 682.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "16"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="17" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_top = 732.0
+margin_right = 106.0
+margin_bottom = 865.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "17"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="18" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 156.0
+margin_top = 732.0
+margin_right = 262.0
+margin_bottom = 865.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "18"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="19" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 312.0
+margin_top = 732.0
+margin_right = 418.0
+margin_bottom = 865.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "19"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="20" type="Button" parent="Panel/ScrollContainer/Levels"]
+margin_left = 468.0
+margin_top = 732.0
+margin_right = 574.0
+margin_bottom = 865.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/pressed = SubResource( 31 )
+custom_styles/focus = SubResource( 32 )
+custom_styles/disabled = SubResource( 33 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "20"
 __meta__ = {
 "_edit_use_anchors_": false
 }

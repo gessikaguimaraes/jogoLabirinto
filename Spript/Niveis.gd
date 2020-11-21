@@ -1,6 +1,6 @@
 extends Node2D
 
-onready var gridLevel = $Panel/Levels
+onready var gridLevel = $Panel/ScrollContainer/Levels
 var game
 
 func _ready():
@@ -18,4 +18,4 @@ func _ready():
 			level.disabled = true #Disable all unlocked level buttons
 
 func level_button_pressed(lvl_no):
-	get_tree().change_scene("res://Scenes/Fase"+ lvl_no +".tscn") # Change scene to any selected level
+	get_tree().change_scene("res://Scenes/Fases/Fase"+ lvl_no +".tscn") # Change scene to any selected level

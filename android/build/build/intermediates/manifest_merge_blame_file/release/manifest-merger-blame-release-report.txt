@@ -7,31 +7,31 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="18"
-9-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml
+9-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml
 10        android:targetSdkVersion="29" />
-10-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml
+10-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml
 11
 12    <!-- Adding custom text to the manifest is fine, but do it outside the custom USER and APPLICATION BEGIN/END comments, -->
 13    <!-- as that gets rewritten. -->
 14
 15    <supports-screens
-15-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:12:5-16:40
+15-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:12:5-16:40
 16        android:largeScreens="true"
-16-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:15:9-36
+16-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:15:9-36
 17        android:normalScreens="true"
-17-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:14:9-37
+17-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:14:9-37
 18        android:smallScreens="true"
-18-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:13:9-36
+18-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:13:9-36
 19        android:xlargeScreens="true" />
-19-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:16:9-37
+19-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:16:9-37
 20
 21    <!-- glEsVersion is modified by the exporter, changing this value here has no effect. -->
 22    <uses-feature
-22-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:19:5-21:35
+22-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:19:5-21:35
 23        android:glEsVersion="0x00020000"
-23-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:20:9-41
+23-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:20:9-41
 24        android:required="true" />
-24-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:21:9-32
+24-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:21:9-32
 25
 26    <uses-permission android:name="android.permission.INTERNET" />
 26-->[GodotAdMob.release.aar] G:\ges_s\.gradle\caches\transforms-2\files-2.1\970af7b1f5b219c05d17582ac129428b\GodotAdMob.release\AndroidManifest.xml:11:5-67
@@ -63,23 +63,23 @@
 40    <!-- If you want to add tags manually, do before it. -->
 41    <!-- WARNING: This should stay on a single line until the parsing code is improved. See GH-32414. -->
 42    <application
-42-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:30:5-72:19
+42-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:30:5-72:19
 43        android:allowBackup="false"
-43-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:30:68-95
+43-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:30:68-95
 44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 44-->[androidx.core:core:1.0.0] G:\ges_s\.gradle\caches\transforms-2\files-2.1\e88442ec705b6b47ee3d0278e28e5481\core-1.0.0\AndroidManifest.xml:22:18-86
 45        android:icon="@mipmap/icon"
-45-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:30:136-163
+45-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:30:136-163
 46        android:label="@string/godot_project_name_string"
-46-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:30:18-67
+46-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:30:18-67
 47        android:requestLegacyExternalStorage="true" >
 47-->[godot-lib.release.aar] G:\ges_s\.gradle\caches\transforms-2\files-2.1\efac7106ecacf47f180adf10a55d85d8\godot-lib.release\AndroidManifest.xml:18:18-61
 48        <meta-data
-48-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:32:3-34:69
+48-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:32:3-34:69
 49            android:name="com.google.android.gms.ads.APPLICATION_ID"
-49-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:33:13-69
+49-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:33:13-69
 50            android:value="ca-app-pub-1556568734938950~6729648042" />
-50-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:34:13-67
+50-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:34:13-67
 51
 52        <!-- The following metadata values are replaced when Godot exports, modifying them here has no effect. -->
 53        <!-- Do these changes in the export preset. Adding new ones is fine. -->
@@ -87,54 +87,54 @@
 55
 56        <!-- XR mode metadata. This is modified by the exporter based on the selected xr mode. DO NOT CHANGE the values here. -->
 57        <meta-data
-57-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:40:9-42:54
+57-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:40:9-42:54
 58            android:name="xr_mode_metadata_name"
-58-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:41:13-49
+58-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:41:13-49
 59            android:value="xr_mode_metadata_value" />
-59-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:42:13-51
+59-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:42:13-51
 60
 61        <!-- Metadata populated at export time and used by Godot to figure out which plugins must be enabled. -->
 62        <meta-data
-62-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:45:9-47:44
+62-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:45:9-47:44
 63            android:name="plugins"
-63-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:46:13-35
+63-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:46:13-35
 64            android:value="plugins_value" />
-64-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:47:13-42
+64-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:47:13-42
 65
 66        <activity
-66-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:49:9-66:20
+66-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:49:9-66:20
 67            android:name="com.godot.game.GodotApp"
-67-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:50:13-37
+67-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:50:13-37
 68            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
-68-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:55:13-141
+68-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:55:13-141
 69            android:label="@string/godot_project_name_string"
-69-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:51:13-62
+69-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:51:13-62
 70            android:launchMode="singleTask"
-70-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:53:13-44
+70-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:53:13-44
 71            android:resizeableActivity="false"
-71-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:56:13-47
+71-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:56:13-47
 72            android:screenOrientation="landscape"
-72-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:54:13-50
+72-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:54:13-50
 73            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-73-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:52:13-77
+73-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:52:13-77
 74
 75            <!-- Focus awareness metadata populated at export time if the user enables it in the 'Xr Features' section. -->
 76            <meta-data
-76-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:60:13-107
+76-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:60:13-107
 77                android:name="com.oculus.vr.focusaware"
-77-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:60:24-63
+77-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:60:24-63
 78                android:value="oculus_focus_aware_value" />
-78-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:60:64-104
+78-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:60:64-104
 79
 80            <intent-filter>
-80-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:62:13-65:29
+80-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:62:13-65:29
 81                <action android:name="android.intent.action.MAIN" />
-81-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:63:17-69
-81-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:63:25-66
+81-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:63:17-69
+81-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:63:25-66
 82
 83                <category android:name="android.intent.category.LAUNCHER" />
-83-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:64:17-77
-83-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto\android\build\AndroidManifest.xml:64:27-74
+83-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:64:17-77
+83-->G:\Projetos\jogos\Labirinto_desenvolvendo\jogoLabirinto_2\android\build\AndroidManifest.xml:64:27-74
 84            </intent-filter>
 85        </activity>
 86
